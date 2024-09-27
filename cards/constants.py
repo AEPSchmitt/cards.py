@@ -129,6 +129,8 @@ class CardSizes:
                 return CardSize(identifier, style='card-size-075x075', size_in_inches=(.75, .75))
             elif identifier == 'standard':
                 return CardSize(identifier, style='card-size-25x35', size_in_inches=(2.5, 3.5))
+            elif identifier == 'standard_mini':
+                return CardSize(identifier, style='card-size-16x25', size_in_inches=(1.614, 2.48))
             elif identifier == 'square':
                 return CardSize(identifier, style='card-size-25x25', size_in_inches=(2.5, 2.5))
             elif identifier == 'lsquare':
